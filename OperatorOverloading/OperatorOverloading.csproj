@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OperatorOverloading.cs" />
+    <Compile Include="BinaryOperatorOverloading.cs" />
+    <Compile Include="UnraryOperatorOverloading.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
