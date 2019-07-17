@@ -10,7 +10,7 @@ namespace HR_Solution
 {
     class ReadJSON
     {
-        static void Main()
+        static void RemoveME_Main()
         {
 
             string json = "";

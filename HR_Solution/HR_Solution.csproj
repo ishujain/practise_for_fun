@@ -66,6 +66,8 @@
     <Compile Include="LinkedList_MergeSortedLists.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadJSON.cs" />
+    <Compile Include="Stacks_EqualStacks.cs" />
+    <Compile Include="Stack_MaximumElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
