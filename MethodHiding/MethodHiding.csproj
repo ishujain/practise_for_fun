@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1CC0F18-BC72-457C-A310-EEE7D6A55010}</ProjectGuid>
+    <ProjectGuid>{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HR_Solution</RootNamespace>
-    <AssemblyName>HR_Solution</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>MethodHiding</RootNamespace>
+    <AssemblyName>MethodHiding</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -32,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,35 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array_SparseArray.cs" />
-    <Compile Include="Array_ArrayDS.cs" />
-    <Compile Include="Array_2D_hourglass.cs" />
-    <Compile Include="Array_CountValleys.cs" />
-    <Compile Include="Array_DynamicArray.cs" />
-    <Compile Include="Array_LeftRotation.cs" />
-    <Compile Include="LinkedListDelete.cs" />
-    <Compile Include="LinkedListPrintReverse.cs" />
-    <Compile Include="LinkedList_CompareTwo.cs" />
-    <Compile Include="LinkedList_DeleteDuplicate.cs" />
-    <Compile Include="LinkedList_GetNode.cs" />
-    <Compile Include="LinkedList_InsertAtPosition.cs" />
-    <Compile Include="LinkedList_InsertAtHead.cs" />
-    <Compile Include="LinkedList_InsertAtEnd.cs" />
-    <Compile Include="LinkedList_Insert.cs" />
-    <Compile Include="Array_RepeatedString.cs" />
-    <Compile Include="Array_JumpingOnClouds.cs" />
-    <Compile Include="Array_SockMerchant.cs" />
-    <Compile Include="LinkedList_MergeSortedLists.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadJSON.cs" />
-    <Compile Include="Stacks_EqualStacks.cs" />
-    <Compile Include="Stacks_GameTwoStacks.cs" />
-    <Compile Include="Stack_BalancedBrackets.cs" />
-    <Compile Include="Stack_MaximumElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

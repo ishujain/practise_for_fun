@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_Solution", "HR_Solution\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDefinedConversions", "UserDefinedConversions\UserDefinedConversions.csproj", "{936832AF-76D3-418F-BF65-93E7355CB8B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodHiding", "MethodHiding\MethodHiding.csproj", "{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{936832AF-76D3-418F-BF65-93E7355CB8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936832AF-76D3-418F-BF65-93E7355CB8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936832AF-76D3-418F-BF65-93E7355CB8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD25D763-DE2A-47A4-9E34-839A81E7C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
