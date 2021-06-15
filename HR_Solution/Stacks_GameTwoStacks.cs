@@ -62,7 +62,7 @@ namespace HR_Solution
 
 
 
-        static void Main(string[] args)
+        static void RemoveMe_Main(string[] args)
         {
             int g = Convert.ToInt32(Console.ReadLine());
 
